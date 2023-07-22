@@ -1,0 +1,14 @@
+Design Pattern
+--------------
+
+Design Pattern'lar genel olarak 3 kategori altýnda toplanýr:
+-Structural
+-Behavioral
+-Creational
+
+Strategn Design Pattern
+-----------------------
+Runtime esnasýnda bir objenin davranýþýný deðiþtirmemize olanak tanýr.
+
+CompileTime -> Build ettik, exe oluþana kadar olan kýsým compiletime'dýr.
+RunTime -> Exe dosyasý oluþtuktan sonra, exe'nin çalýþmaya baþlamasýyla Runtime'dýr.
