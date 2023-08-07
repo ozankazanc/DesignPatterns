@@ -8,7 +8,16 @@ Design Pattern'lar genel olarak 3 kategori altýnda toplanýr:
 
 Strategn Design Pattern
 -----------------------
+Category => Behavioral
+
 Runtime esnasýnda bir objenin davranýþýný deðiþtirmemize olanak tanýr.
 
 CompileTime -> Build ettik, exe oluþana kadar olan kýsým compiletime'dýr.
 RunTime -> Exe dosyasý oluþtuktan sonra, exe'nin çalýþmaya baþlamasýyla Runtime'dýr.
+
+Template Design Pattern
+-----------------------
+Category => Behavioral
+
+Algoritmalarý kapsüllememize imkan verir.
+Bir algoritma iskeleti tanýmlanýr. Bu iskkeletin bazý adýmlarýnýn subclass'lar tarafýndan oluþturulmasýna imkan verir.
