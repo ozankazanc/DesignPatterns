@@ -1,12 +1,26 @@
 using WebApp.Strategy.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-
+using WebApp.Strategy.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+//builder.Services.AddScoped<IProductRepository>(opt =>
+//{
+//    var httpContextAccessor = opt.GetRequiredService<HttpContextAccessor>();
+//    var claim = httpContextAccessor.HttpContext.User.Claims.Where(x => x.Type == Settings.claimDatabaseType).FirstOrDefault();
+
+//    var context = opt.GetRequiredService<AppIdentityDbContext>();
+//    if (claim == null)
+//        return new ProductRepositoryFromSqlServer(context);
+
+//    var databaseType =
+    
+//});
+
 
 builder.Services.AddDbContext<AppIdentityDbContext>(opt =>
 {
