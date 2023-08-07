@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 using WebApp.Strategy.Models;
+using WebApp.Strategy.Repositories;
 
 namespace WebApp.Strategy.Controllers
 {
@@ -13,7 +14,7 @@ namespace WebApp.Strategy.Controllers
     {
         private readonly UserManager<AppUser> _userManager;
         private readonly SignInManager<AppUser> _signInManager;
-
+       
         public SettingsController(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager)
         {
             _userManager = userManager;
