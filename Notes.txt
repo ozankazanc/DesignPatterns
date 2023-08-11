@@ -21,3 +21,10 @@ Category => Behavioral
 
 Algoritmalarý kapsüllememize imkan verir.
 Bir algoritma iskeleti tanýmlanýr. Bu iskkeletin bazý adýmlarýnýn subclass'lar tarafýndan oluþturulmasýna imkan verir.
+
+
+Command Design Pattern
+----------------------
+Category => Behavioral
+
+Method çaðýrma iþlemini kapsüller.
